@@ -5,6 +5,7 @@ import WorkComponent from './pages/Work';
 import HeaderComponent from './components/Header';
 import NavbarComponent from './components/Navbar';
 import FooterComponent from './pages/footer';
+import SkillComponent from './pages/skills';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
       <NavbarComponent />
       <HomeComponent />
       <WorkComponent />
-
+      <SkillComponent />
       <FooterComponent />
     </div>
   );

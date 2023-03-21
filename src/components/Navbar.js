@@ -1,6 +1,6 @@
 import React from "react";
 import logo from '../assets/logo.png'
-
+import Resume from '../assets/resume/Resume_Ramesk_K_UI Developer_Angular_React.pdf';
 function NavbarComponent() {
     return (
         <>
@@ -33,7 +33,7 @@ function NavbarComponent() {
                             </li>
                             
                             <li className="nav-item CV">
-                                <a className="nav-link mx-2" href="#">Download CV<span className="ms-2">&#x2192;</span></a>
+                                <a className="nav-link mx-2" href={Resume} download="Resume_Ramesh_K_UI_developer" target='_blank'>Download CV<span className="ms-2">&#x2192;</span></a>
                             </li>
                         </ul>
                     </div>
